@@ -33,6 +33,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ue1iEComEe6AN7JuYV5eAQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_kQZU8CoiEe6AN7JuYV5eAQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_yLsLICoiEe6AN7JuYV5eAQ",
     "version" : "0.1",
     "type" : "job"
