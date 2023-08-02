@@ -113,15 +113,4 @@
     "version" : "0.1",
     "type" : "test_case"
   } ]
-}, {
-  "baseItem" : {
-    "id" : "_G00XsDB4Ee6e-poB14j1_Q",
-    "version" : "0.1",
-    "type" : "test_case"
-  },
-  "relatedItems" : [ {
-    "id" : "_BsrZMDB4Ee6e-poB14j1_Q",
-    "version" : "0.1",
-    "type" : "test_case"
-  } ]
 } ]
