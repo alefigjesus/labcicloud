@@ -145,17 +145,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_LUI-kDIsEe6tmYAxr0hXCw",
-    "version" : "0.1",
-    "type" : "test_case"
-  },
-  "relatedItems" : [ {
-    "id" : "_qHDrcDInEe6tmYAxr0hXCw",
-    "version" : "0.1",
-    "type" : "test_case"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_evHsIDLSEe6PUeojYHCs7g",
     "version" : "0.1",
     "type" : "test_case"

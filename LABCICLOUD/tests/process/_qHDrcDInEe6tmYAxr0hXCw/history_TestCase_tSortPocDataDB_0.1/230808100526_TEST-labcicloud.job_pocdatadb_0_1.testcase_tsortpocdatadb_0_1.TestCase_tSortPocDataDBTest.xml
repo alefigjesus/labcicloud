@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest" time="1.171" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Honda\Talend-Studio-20221003_1400-V8.0.1\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Talend-Studio-8\zulu11.48.21-ca-jdk11.0.11-win_x64\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -o -s C:\Honda\Talend-Studio-20221003_1400-V8.0.1\configuration\maven_user_settings.xml test -llr -l C:/Users/Sysvision/workspace_nova/.repositories/1606885965/main/LABCICLOUD/poms/jobs/process/job_pocdatadb_0.1/lastGenerated.log -Dci.builder.skip=true -Dlicense.path=C:\Honda\Talend-Studio-20221003_1400-V8.0.1\license -Dsession.id=NTc0NDUwMTY5MTQ5OTkxMjU0Ng=="/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Sysvision\workspace_nova\.repositories\1606885965\main\LABCICLOUD\poms\jobs\process\job_pocdatadb_0.1\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sysvision"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files (x86)\Talend-Studio-8\zulu11.48.21-ca-jdk11.0.11-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS"/>
+    <property name="user.name" value="Sysvision"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="license.path" value="C:\Honda\Talend-Studio-20221003_1400-V8.0.1\license"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SYSVIS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\Sysvision\workspace_nova\.repositories\1606885965\main\LABCICLOUD\poms\jobs\process\job_pocdatadb_0.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sysvision\workspace_nova\.repositories\1606885965\main\LABCICLOUD\poms\jobs\process\job_pocdatadb_0.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Talend-Studio-8\zulu11.48.21-ca-jdk11.0.11-win_x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:/produtos/zulu11.58.15-ca-jdk11.0.16-win_x64/bin/server;c:/produtos/zulu11.58.15-ca-jdk11.0.16-win_x64/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MicroStrategy\Desktop\DataServices\180_192\64-bit\bin\server;C:\Program Files (x86)\Common Files\MicroStrategy;C:\Program Files (x86)\MicroStrategy\Developer;C:\Program Files (x86)\MicroStrategy\Command Manager;c:\produtos\zulu11.58.15-ca-jdk11.0.16-win_x64\bin\;c:\produtos\zulu11.58.15-ca-jdk11.0.16-win_x64\bin\server;C:\Program Files (x86)\Common Files\MicroStrategy\Help\English;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\apache-maven-3.9.2\bin;C:\Program Files\Git\cmd;C:\Users\Sysvision\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Sysvision\AppData\Local\Programs\Python\Python39\;C:\Users\Sysvision\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sysvision\AppData\Local\Programs\Microsoft VS Code\bin;C:\Honda\Talend-Studio-20221003_1400-V8.0.1;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.11+9-LTS"/>
+    <property name="classworlds.conf" value="C:\Users\Sysvision\workspace_nova\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10501416213516261797.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="session.id" value="NTc0NDUwMTY5MTQ5OTkxMjU0Ng=="/>
+  </properties>
+  <testcase name="testnull" classname="labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest" time="1.107">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tCreateTemporaryFile_1Process(TestCase_tSortPocDataDBTest.java:655)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.runJobInTOS(TestCase_tSortPocDataDBTest.java:5825)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.testnull(TestCase_tSortPocDataDBTest.java:5536)
+</error>
+    <system-out><![CDATA[10:05:25.580 [main] FATAL labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest - tCreateTemporaryFile_1 null
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:278) ~[?:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tCreateTemporaryFile_1Process(TestCase_tSortPocDataDBTest.java:655) [test-classes/:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.runJobInTOS(TestCase_tSortPocDataDBTest.java:5825) [test-classes/:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.testnull(TestCase_tSortPocDataDBTest.java:5536) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143) [surefire-booter-2.20.jar:2.20]
+10:05:25.618 [main] ERROR labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest - tDie_1 - The die message: the end is near
+10:05:25.618 [main] FATAL labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest - tDie_1 null
+routines.system.TDieException: null
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tAssertCatcher_1Process(TestCase_tSortPocDataDBTest.java:5052) [test-classes/:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tCreateTemporaryFile_1_error(TestCase_tSortPocDataDBTest.java:362) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest$TalendException.printStackTrace(TestCase_tSortPocDataDBTest.java:334) [test-classes/:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.runJobInTOS(TestCase_tSortPocDataDBTest.java:5832) [test-classes/:?]
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.testnull(TestCase_tSortPocDataDBTest.java:5536) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143) [surefire-booter-2.20.jar:2.20]
+]]></system-out>
+    <system-err><![CDATA[Could not find the context null
+Exception in component tCreateTemporaryFile_1 (TestCase_tSortPocDataDB)
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tCreateTemporaryFile_1Process(TestCase_tSortPocDataDBTest.java:655)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.runJobInTOS(TestCase_tSortPocDataDBTest.java:5825)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.testnull(TestCase_tSortPocDataDBTest.java:5536)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+the end is near
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.tCreateTemporaryFile_1Process(TestCase_tSortPocDataDBTest.java:655)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.runJobInTOS(TestCase_tSortPocDataDBTest.java:5825)
+	at labcicloud.job_pocdatadb_0_1.testcase_tsortpocdatadb_0_1.TestCase_tSortPocDataDBTest.testnull(TestCase_tSortPocDataDBTest.java:5536)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+</testsuite>
